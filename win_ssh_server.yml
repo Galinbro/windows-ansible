@@ -1,0 +1,5 @@
+- hosts: windows
+  vars_files:
+    - ./roles/win_service_config/defaults/main.yml
+  roles:
+    - win_service_config

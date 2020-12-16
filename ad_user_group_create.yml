@@ -1,0 +1,7 @@
+---
+- name: add user to group
+  hosts: windows
+  gather_facts: false
+  
+  roles:
+    - win_domain_user
